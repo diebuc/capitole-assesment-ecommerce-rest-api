@@ -1,9 +1,8 @@
-package com.diebuc.ecommerce.demo.repository;
+package com.diebuc.ecommerce.repository;
 
 
-import com.diebuc.ecommerce.demo.entity.Price;
+import com.diebuc.ecommerce.entity.Price;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.http.server.ServerHttpRequest;
 
 import java.time.LocalDateTime;
 import java.util.List;

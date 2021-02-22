@@ -1,12 +1,11 @@
-package com.diebuc.ecommerce.demo.service;
+package com.diebuc.ecommerce.service;
 
-import com.diebuc.ecommerce.demo.entity.Price;
-import com.diebuc.ecommerce.demo.repository.PriceRepository;
+import com.diebuc.ecommerce.entity.Price;
+import com.diebuc.ecommerce.repository.PriceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 @Service

@@ -1,4 +1,4 @@
-package com.diebuc.ecommerce.demo.entity;
+package com.diebuc.ecommerce.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

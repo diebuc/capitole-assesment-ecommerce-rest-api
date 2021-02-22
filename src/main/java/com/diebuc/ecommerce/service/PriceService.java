@@ -1,6 +1,6 @@
-package com.diebuc.ecommerce.demo.service;
+package com.diebuc.ecommerce.service;
 
-import com.diebuc.ecommerce.demo.entity.Price;
+import com.diebuc.ecommerce.entity.Price;
 
 import java.time.LocalDateTime;
 import java.util.List;

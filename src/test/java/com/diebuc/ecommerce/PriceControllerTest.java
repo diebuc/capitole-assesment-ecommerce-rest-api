@@ -1,4 +1,4 @@
-package com.diebuc.ecommerce.demo;
+package com.diebuc.ecommerce;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

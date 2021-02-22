@@ -1,15 +1,14 @@
-package com.diebuc.ecommerce.demo.rest;
+package com.diebuc.ecommerce.rest;
 
-import com.diebuc.ecommerce.demo.dto.PriceDto;
-import com.diebuc.ecommerce.demo.entity.Price;
-import com.diebuc.ecommerce.demo.service.PriceService;
+import com.diebuc.ecommerce.dto.PriceDto;
+import com.diebuc.ecommerce.entity.Price;
+import com.diebuc.ecommerce.service.PriceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 
@@ -26,8 +25,8 @@ public class PriceController {
 
     @RequestMapping("/Price")
     public PriceDto getPrices(@RequestParam Integer brandId,
-                                 @RequestParam Long productId,
-                                 @RequestParam String applicationDateTime)  {
+                              @RequestParam Long productId,
+                              @RequestParam String applicationDateTime)  {
 
         LocalDateTime appDateTime = LocalDateTime.parse(applicationDateTime);
 
